@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexstyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="div1">
+        <div id="div2">
+            <video autoplay muted loop id="myVideo">
+                <source src="Videor/IRAQ in MOTION 1 _ العراق كما لم تشاهده من قبل ١.mp4" type="video/mp4">
+            </video>
+
+            <div id="vidcont"><h1>Welcome to Iraq!</h1>
+            <p>your next travel destination?</p>
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+            <button id="closebtn" onclick="closefunction()">Close video</button>
+        
+        </div>
+
+
+         <div id="textdiv">
+            <h1>An introduction to Iraq!</h1>
+            
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nostrum alias maxime aperiam error. Nihil commodi natus ea, cumque ipsam quisquam aliquid numquam non tenetur consequuntur ad delectus deleniti vel.</p>
+
+
+            <h3>Interested to learn more?</h3>
+
+            <a href="">Learn about culture</a>
+            <a href="">Learn about sights</a>
+            <a href="">learn about traditions</a>
+
+
+         </div>
+
+
+
+            
+
+        </div>
+
+
+    </div>
+
+
+
+    <script>
+        var video = document.getElementById("myVideo");
+
+        var btn = document.getElementById("myBtn");
+
+        var btnclose = document.getElementById("closebtn");
+        var cont = document.getElementById("vidcont")
+
+        function myFunction(){
+            if(video.paused){
+                video.play();
+                btn.innerHTML = "Pause"
+            } else{
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+
+
+
+        }
+        btnclose.addEventListener('click', () => {
+      
+      video.style.display = 'none';
+      cont.style.opacity = 0;
+    });
+
+
+
+    </script>
+    
+</body>
+</html>
