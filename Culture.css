@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#Bar_list
+{
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border: 2px solid #831f22;
+    border-radius: 10px;
+   
+}
+#Bar_list ol
+{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+       
+}
+#Bar_list li
+{
+ width: 90%;
+  text-align: center; 
+ padding: 5px 40px 10px 5px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Sildes
+{
+    background-color: green;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    width: 90%;
+}
+.Silde
+{
+   width: 200px;
+   height: 200px;  
+}
+
+
+
+.Cirkel
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Button
+{
+    margin: 0 10px 0 0;
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 10px;    
+}
+
+.radio
+{
+    display: none;
+}
+
+.Button:hover
+{
+ background-color: blue;
+ transition: 1s;
+}
+#radio_1:checked ~ .Picture_first
+{
+    margin-left:0;
+}
+#radio_2:checked ~ .Picture
+{
+    margin-left: -10%;
+}
+
+
