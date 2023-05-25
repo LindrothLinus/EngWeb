@@ -18,10 +18,11 @@
             
             <div id="test">
                 <div id="windov">
-                    <button class="WindoLinks"onclick="open(event,'Babylon')">Babylon</button>
-                    <button class="WindoLinks"onclick="open(event,'ErbilCitadel')">Erbil citadel</button>
-                    <button clsaa="WindoLinks" onclick="open(event,'AlKathimaynShrine')">Al Kathimayn Shrine</button>
-                    <button clsaa="WindoLinks" onclick="open(event,'Hatra')">Hatra</button>
+                    <button id="babButton" class="WindoLinks"onclick="openTab(event,'Bab',1)" onclick="colore(1)">Babylon</button>
+                    <button id="erbilButton"class="WindoLinks"onclick="openTab(event,'Erbil',2)" onclick="colore(2)">Erbil citadel</button>
+                    <button id="alButtton"class="WindoLinks"onclick="openTab(event,'Al',3)"onclick="colore(3)">Al Kathimayn Shrine</button>
+                    <button id="hatraButton" class="WindoLinks" onclick="openTab(event,'Hatra',4)"onclick="colore(4)">Hatra</button>
+
 
                 </div>
             </div>
@@ -77,6 +78,8 @@
                     and restore the damages.
                 </p>
 
+            </div>
+
                 <div id="Al" class="iWindovs">
                     <p>
                         Al Kathimayn is known as one if not the oldest town in Iraq and the mosque is said 
@@ -102,7 +105,8 @@
 
                 </div>
 
-            </div>
+
+            
 
 
         </main>
@@ -110,6 +114,11 @@
         <footer>
 
         </footer>
+
+
+        <script src="sitesJavaScript.js">
+        
+        </script>
     
 </body>
 </html>
