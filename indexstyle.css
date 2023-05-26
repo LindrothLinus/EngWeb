@@ -6,9 +6,11 @@
 
 }
 #div2{
-    background-color: white;
+    background-image: url(https://wallpapercave.com/wp/wp3634200.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 10px groove black;
-    color: black;
+    color: white;
     
 }
 
@@ -77,4 +79,8 @@ p{
 #closebtn:hover{
     background: #ddd;
     color: black;
+}
+
+a{
+    color: orange;
 }
