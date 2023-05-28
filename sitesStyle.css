@@ -6,6 +6,7 @@
     --Text:black;
 }
 
+
 body{
     background-color:var(--Details);
     
@@ -42,6 +43,24 @@ opacity:0.7;
     transform: rotate(10deg);
 }
 
+#ErbImg{
+    float: right;
+    float:inline-start;
+    margin: 10px;
+    height: 20vh;
+    transform: rotate(5deg);
+}
+
+#AlDiv{
+    justify-content: center;
+    display: flex;
+}
+
+#AlImg{
+    width: 50vh;
+    height: 50vh;
+}
+
 #code{
     float: inline-start;
     float: left;
@@ -49,6 +68,15 @@ opacity:0.7;
     transform: rotate(-10deg);
     shape-outside:margin-box;
     margin-right: 3vh;
+}
+#HatraImg{
+    float: inline-start;
+    float: left;
+    height: 40vh;
+
+    shape-outside:margin-box;
+    margin-right: 3vh;
+
 }
 
 #Bab{
