@@ -212,6 +212,22 @@
   border-radius: 100px;
   box-shadow: 0px 0px 20px #831f22;
   transition: 1s;
+  animation: light 4s infinite;
+}
+@keyframes light
+{
+   0%
+   {
+       box-shadow: 0px 0px 20px #831f22;
+   }
+   50%
+   {
+       box-shadow: 0px 0px 100px #831f22;
+   }
+   100%
+   {
+       box-shadow: 0px 0px 20px #831f22;
+   }
  }
  #Abody:hover
  {
