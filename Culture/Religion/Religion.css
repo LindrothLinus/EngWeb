@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Background
+{  
+  width: 100%;
+  background-size: cover;  
+ height: 200vh;
+}
+
+#Religion_map
+{
+    position: absolute;
+    top: 60px;  
+    width: 100%;    
+}
+#sction
+{
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 10px;
+   background-color:rgba(255, 255, 255, 0.8);
+   width: 80%;
+  margin: auto;
+}
+#Title
+{
+    margin: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+.Religion_item
+{
+    margin: 10px;
+}
+.Religion_item a
+{
+    text-decoration-line: none;
+    font-size: 20px;
+    color: black;
+    margin: 10px 10px 10px 0;
+}
+#First_sction
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#Iraq
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding: 30px;
+    background-color: lightblue;
+}
+#Christians
+{
+    transition: 0.5s;
+}
+#Christians:hover
+{
+padding: 5px 20px;
+border-radius: 100px;
+background-color: rgb(60, 91, 143);
+}
+#shia
+{
+    transition: 0.5s;
+}
+#shia:hover
+{
+padding: 5px 20px;
+border-radius: 100px;
+background-color: rgb(33, 144, 70);
+}
+#Sunnis
+{
+    transition: 0.5s;
+}
+#Sunnis:hover
+{
+padding: 5px 20px;
+border-radius: 100px;
+background-color: rgb(10, 235, 32);
+}
+#Yezidis
+{
+    transition: 0.5s;
+}
+#Yezidis:hover
+{
+padding: 5px 20px;
+border-radius: 100px;
+background-color: rgb(53, 14, 68);
+}
+#Assyrian
+{
+    transition: 0.5s;
+}
+#Assyrian:hover
+{
+padding: 5px 20px;
+border-radius: 100px;
+background-color: rgb(140, 178, 0);
+}
+
+
+
+.Shia_country
+{
+   animation: cor 10s infinite;
+}
+@keyframes cor
+{
+ 0%
+ {
+    fill: gray;
+ }
+ 100%
+ {
+    fill: green;
+ }
+}
+.Sunnis_country
+{
+    animation: car 10s infinite;
+ }
+ @keyframes car
+ {
+  0%
+  {
+     fill: gray;
+  }
+  100%
+  {
+     fill: rgb(0, 255, 0);
+  }
+}
+.Dihok_Assyrian
+{
+    animation: cr 10s infinite;
+ }
+ @keyframes cr
+ {
+  0%
+  {
+     fill: gray;
+  }
+  100%
+  {
+     fill:rgb(140, 178, 0);
+  }
+}
+.AtTamim
+{
+    animation: r 10s infinite;
+ }
+ @keyframes r
+ {
+  0%
+  {
+     fill: gray;
+  }
+  100%
+  {
+     fill: rgb(60, 91, 143);
+  }
+ }
+ .Ninawa
+ {
+    animation: a 10s infinite;
+ }
+ @keyframes a
+ {
+  0%
+  {
+     fill: gray;
+  }
+  100%
+  {
+     fill: rgb(53, 14, 68);
+  }
+}
+.SalaadDin
+{
+    animation: b 10s infinite;
+ }
+ @keyframes b
+ {
+  0%
+  {
+     fill: gray;
+  }
+  100%
+  {
+     fill: rgb(60, 91, 143);
+  }
+}
+#Return
+{
+    position: absolute;
+    margin: 10px;
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+    text-decoration-line: none;
+}
+.text_image
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    animation: movement 5s infinite; 
+}
+@keyframes movement
+{
+    0% {
+        transform:  translateX(0px);
+      }
+     50%
+     {
+        transform: translateX(40px);
+     }
+     100%
+     {
+        transform: translateX(0px);
+     }
+}
+.text-style
+{
+   height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-style p
+{
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#bottom
+{
+    background-color: black;
+    width: 100%;
+    height: 20%;
+}
+
+
+
+
+
+  
