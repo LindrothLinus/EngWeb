@@ -5,7 +5,6 @@ var slideIndex = 1;
     function changeSlide(n) {
       showSlide(slideIndex += n);
     }
-
     function showSlide(n) {
       var slides = document.getElementsByClassName("Slides");
 
@@ -20,14 +19,12 @@ var slideIndex = 1;
       for (var i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
       }
-
       slides[slideIndex - 1].style.display = "block";
     }
-
     function autoplay() {
       setInterval(function() {
         changeSlide(1);
-      }, 2000); 
+      }, 3000); 
     }
 
 
