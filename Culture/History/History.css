@@ -8,9 +8,93 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 }
+#Title
+{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 20%;
+    margin: auto;
+   
+}
+#Box
+{
+   
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+.thor
+{
+width: 350px;
+height: 500px;
+animation:  fly 4s infinite;
+}
+@keyframes fly
+{
+    0%{
+        transform:  translateY(0px);
+    }
+    50%{
+        transform:  translateY(-10px);
+    }
+    100%{
+        transform:  translateY(0px);
+    }   
+}
+#Text
+{
+   height: 100%;
+}
+.Text-title
+{
+    font-size: 20px;
+    margin: 5px;
+}
+.Text-style
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    transition: 1s;
+}
+.Text-style:hover
+{
+    padding: 10px;
+    font-size: 15.5px;
+    color: white;
+    background-color: rgb(0, 0, 0,0.8);
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.Text-image
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+.image-movment
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    transition: 1s;
+}
+.image-movment:hover
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
 #Return
 {  
-    margin: 10px;
+   position: relative;
+   top: 20px;
     padding: 10px 40px;
     background-color: white;
     color: black;
@@ -42,7 +126,7 @@ body
  /* Footer start */
  #Bottom
  {
-  background-image:linear-gradient(rgb(255, 255, 255)  , rgb(0, 0, 0) 50% );
+  background-color:rgb(0, 0, 0);
   width: 100%;
   height: 80px;
   display: flex;
@@ -58,10 +142,27 @@ body
   border-radius: 100px;
   box-shadow: 0px 0px 20px #831f22;
   transition: 1s;
+  animation: light 4s infinite;
+ }
+ @keyframes light
+ {
+    0%
+    {
+        box-shadow: 0px 0px 20px #831f22;
+    }
+    50%
+    {
+        box-shadow: 0px 0px 100px #831f22;
+    }
+    100%
+    {
+        box-shadow: 0px 0px 20px #831f22;
+    }
  }
  #Abody:hover
  {
   padding: 20px 30px;
   box-shadow: 0px 0px 30px #831f22;
  }
+ 
  /* Footer end */
