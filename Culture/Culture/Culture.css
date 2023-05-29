@@ -3,7 +3,6 @@
   margin:0;
   padding:0;
 }
-
 #Background_picture
 {
   width:100%;
@@ -32,8 +31,6 @@
 }
 #NavBar ol li
 {
-
-  
   list-style: none;
  text-align: center;
   margin: 0 100px 0 100px;
@@ -50,12 +47,9 @@
   left:0;
   transition: 0.5s;
 }
-
 #NavBar ol li:hover::after
 {
- 
   width: 100%;
-
 }
 .Nav_link 
 {
@@ -73,8 +67,7 @@
   height: 100%;  
 }
 #Title
-{
-  
+{ 
   height:50%;
   width: 80%;
   margin: auto;
@@ -117,35 +110,6 @@
   width: 440px;
   height: 230px;
 }
-#Back
-{
-  position: absolute;
-  background-color: rgb(0,0,0,0.6);
-  padding: 0 5px 0 5px;
-  text-decoration-line: none;
-  font-size: larger;
-  color: white;
-  border-radius: 100%;
-}
-#Fore
-{ position: absolute;
-  color: white;
-  background-color: rgb(0,0,0,0.6);
-  padding: 0 5px 0 5px;
-  border-radius: 100%;
-  right: 226px;
-  text-decoration-line: none;
-  font-size: larger;
-  transition: 0.5s; 
-}
-#Fore:hover
-{
-  background-color: rgb(0,0,0,1);
-}
-#Back:hover
-{
-  background-color: rgb(0,0,0,1);
-}
 /* Slider End */
  /* Text Start  */
  #Title_Culture
@@ -172,7 +136,8 @@
   padding: 10px;  
   background-color:rgba(255, 255, 255, 0.6); 
  }
-
+ /* Text end */
+/* Select start */
  #Spin_Selecter
  { 
   width: 100%;
@@ -205,11 +170,10 @@
   padding:48px 30px 48px 30px;
  }
 
- #Language:hover
+ #Religion:hover
  {
-  padding: 52px 25px 52px 25px;
+  padding: 52px 30px 52px 30px;
  }
-
  .Låda
  {
   box-shadow: 0 7px 4px rgb(0,0,0,0.3);
@@ -228,42 +192,30 @@
     transform: rotate(360deg) translateX(50px) rotate(-360deg);
   }
  }
-
+ /* Select end */
+ /* Footer start */
  #Bottom
  {
-  background-image:linear-gradient(rgb(255, 255, 255)  , rgb(0, 0, 0) 15% );
+  background-image:linear-gradient(rgb(255, 255, 255)  , rgb(0, 0, 0) 50% );
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;
  }
-
- .fot
+ #Abody
  {
-  
-  background-color: green;
+  text-decoration-line: none;
+  color: white;
+  background-color:#831f22;
+  padding: 10px 20px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px #831f22;
+  transition: 1s;
  }
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-.IRQ3046
-{
-    fill: green;
-                stroke: palevioletred;
-                stroke-width: 4px;
-   
-}
-  
+ #Abody:hover
+ {
+  padding: 20px 30px;
+  box-shadow: 0px 0px 30px #831f22;
+ }
+ /* Footer end */
