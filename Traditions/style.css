@@ -1,0 +1,49 @@
+body{
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #FDFDFD;
+}
+
+
+
+  
+    .slideshow-container {
+        position: relative;
+        width: 700px;
+        height: 400px; 
+        overflow: hidden;
+      }
+      
+      .slideshow {
+        display: flex;
+        animation: slide-animation 10s infinite;
+        
+      }
+      
+      .slideshow img {
+        width: 100%;
+        height: auto;
+      }
+      
+      @keyframes slide-animation {
+        0% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-100%);
+        }
+        50% {
+          transform: translateX(-200%);
+        }
+        75% {
+          transform: translateX(-200%);
+        }
+        100% {
+          transform: translateX(-200%);
+        }
+      }
+      
