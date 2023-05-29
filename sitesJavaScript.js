@@ -1,6 +1,8 @@
 openTab(event,'Bab',1);
 
 
+
+
 function openTab(evt, cityName,NumberButton) {
  console.log("det gick");
  
@@ -37,4 +39,3 @@ function openTab(evt, cityName,NumberButton) {
         document.getElementById("hatraButton").style.backgroundColor = "white";
     }
   }
-

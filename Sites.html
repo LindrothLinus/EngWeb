@@ -5,23 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sitesStyle.css">
-    <title>Sites in Iraq</title>
+    <title>Sights in Iraq</title>
 </head>
 <body>
     <div id="Back">
         <header>
             <a href="index.html" id="Start">Back to Start</a>
         </header>
-        <main>
+            <div id="Iraq-img">
             <img src="Bilder/NyIraq.png" alt="Fin bild från iraq" id="Iraq-Landscape">
+            </div>
             <H1 id="Headline">Sights</H1>
-            
+            <main>    
             <div id="test">
                 <div id="windov">
                     <button id="babButton" class="WindoLinks"onclick="openTab(event,'Bab',1)" onclick="colore(1)">Babylon</button>
-                    <button id="erbilButton"class="WindoLinks"onclick="openTab(event,'Erbil',2)" onclick="colore(2)">Erbil citadel</button>
-                    <button id="alButtton"class="WindoLinks"onclick="openTab(event,'Al',3)"onclick="colore(3)">Al Kathimayn</button>
-                    <button id="hatraButton" class="WindoLinks" onclick="openTab(event,'Hatra',4)"onclick="colore(4)">Hatra</button>
+                    <button id="erbilButton"class="WindoLinks Red"onclick="openTab(event,'Erbil',2)" onclick="colore(2)">Erbil citadel</button>
+                    <button id="alButtton"class="WindoLinks Red"onclick="openTab(event,'Al',3)"onclick="colore(3)">Al Kathimayn</button>
+                    <button id="hatraButton" class="WindoLinks Red" onclick="openTab(event,'Hatra',4)"onclick="colore(4)">Hatra</button>
 
 
                 </div>
@@ -29,7 +30,7 @@
 
 
 
-            <div id="Bab" class="iWindovs">
+            <div id="Bab" class="iWindovs" onload="StartKod()">
                 <img src="Bilder/Bab.jpg" alt="BAb" id="BabImg">
                 <p>
                     Babolno is an ancient city located 60 miles south of modern-day Baghdad in Iraq and was a very
@@ -98,13 +99,17 @@
                 <div id="Hatra" class="iWindovs">
                     <p>
                     Hatra is an ancient city located in northern Iraq and 290 km from  Baghdad, 
-                    <img src="Bilder/HatraImg.jpg" alt="Image of hatra" id="HatraImg">
+                    
                     the capital of Iraq. Hatra probably got built around the second century BCE under
                      the Seleucid kingdom. When it was built it was supposed to become the capital of
                      
                       Araba, a small state under Parthian ruling. It's placed along the carvada trade
                        route which led to the town becoming an important religious center. 
-                    <br><br>
+                    </p>
+                       <div id="MittenMan">
+                    <br><img src="Bilder/HatraImg.jpg" alt="Image of hatra" id="HatraImg"><br>
+                       </div>
+                       <p>
                     The placement of the city meant it had a big advantage over invaders which also meant 
                     it resisted two attacks from Rome, year 116 and 198. But the advantedge did help for long 
                     because 41 Years later the city fell to Shāpūr I the ruler of the Persian Sāsānian dynasty.
