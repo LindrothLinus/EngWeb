@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="slideshow-container">
+            <div class="slideshow">
+                <img src="Pictures/NyIraq.jpg" alt="Image 1">
+                <img src="Pictures/2.jpg" alt="Image 2">
+                <img src="Pictures/3.jpg" alt="Image 3">
+                <img src="Pictures/4.jpg" alt="Image 4">
+                <img src="Pictures/5.jpg" alt="Image 5">
+                <img src="Pictures/6.jpg" alt="Image 6">
+                <img src="Pictures/7.jpg" alt="Image 7">
+                <img src="Pictures/8.jpg" alt="Image 8">
+                <img src="Pictures/9.jpg" alt="Image 9">
+                <img src="Pictures/10.jpg" alt="Image 10">
+            </div>
+        </div>
+        <div class="content">
+            <h1>Traditions</h1>
+            <p>
+                Iraq has a rich cultural heritage with various traditions that have been shaped by its history, religion, and diverse ethnic groups. Here are some of the traditions observed in Iraq:
+            </p>
+            <p>
+              1. Islamic Festivals: As a predominantly Muslim country, Iraq celebrates Islamic festivals such as Eid al-Fitr, which marks the end of Ramadan, the holy month of fasting, and Eid al-Adha, the festival of sacrifice commemorating Prophet Abraham's willingness to sacrifice his son. These festivals involve special prayers, family gatherings, feasts, and the exchange of gifts.            </p>
+            <p>
+              2. Iraqi Cuisine: Iraqi cuisine is renowned for its flavorful dishes and reflects the country's cultural diversity. Traditional Iraqi meals often include dishes like biryani (spiced rice), kebabs, dolma (stuffed vegetables), kubba (stuffed meatballs), and various types of flatbread. Hospitality plays a significant role in Iraqi culture, and offering food and drinks to guests is a common tradition.            </p>
+            <p>
+                3. Traditional Clothing: The traditional attire in Iraq varies among different ethnic and religious groups.
+            </p>
+            <p>
+                4. Poetry and Literature: Iraq has a rich tradition of poetry and literature.
+            </p>
+            <p>
+                5. Music and Dance: Traditional Iraqi music encompasses various styles, including Maqam and traditional folk music.
+            </p>
+            <p>
+                6. Ashura: Ashura is a significant religious event observed by Shia Muslims in Iraq.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const slideshow = document.querySelector('.slideshow');
+        const images = slideshow.getElementsByTagName('img');
+        let currentImageIndex = 0;
+
+        function nextImage() {
+            images[currentImageIndex].style.opacity = '0';
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            images[currentImageIndex].style.opacity = '1';
+        }
+    </script>
+</body>
+</html>
